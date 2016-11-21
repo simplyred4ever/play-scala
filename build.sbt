@@ -13,5 +13,6 @@ libraryDependencies ++= Seq(
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
 )
 
+resolvers += "Akka Snapshot Repository" at "http://repo.akka.io/snapshots/"
 
 fork in run := true
